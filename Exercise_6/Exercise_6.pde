@@ -6,7 +6,7 @@ void setup() {
   size(800,800);
   background(0);
   
-  movie = new Movie(this, "cat.mp4");
+  movie = new Movie(this, "cat.mp4"); // video source: https://www.youtube.com/watch?v=M4Z2NSqGE9U
   movie.loop();
 }
 
